@@ -2,7 +2,7 @@ baseURL: "https://example.org"
 languageCode: "en-us"
 title: "Guru Prakash portfolio"
 theme: hugo-profile
-
+ 
 Paginate: 3
 # disqusShortname: gurusabarish
 # googleAnalytics: G-DWJJVE27WD
