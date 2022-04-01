@@ -53,14 +53,13 @@ params:
   #   lineHeight: 1 # default: 1.5
   #   textAlign: right # default: left
 
-  # color preference
-  # color:
-  #   textColor: 
-  #   secondaryTextColor: 
-  #   backgroundColor: 
-  #   secondaryBackgroundColor: 
-  #   primaryColor: 
-  #   secondaryColor: 
+  color:
+    textColor: "#1A1A40"
+    secondaryTextColor: "#323232" 
+    backgroundColor: "#FFF8F3" 
+    secondaryBackgroundColor: 
+    primaryColor: "#876445"
+    secondaryColor: 
 
   #   darkmode:
   #     textColor: 
@@ -212,26 +211,26 @@ params:
         school:
           name: "Swami Vivekanandha Matriculation Higher Secondary School"
           date: "2017 - 2019"
-        PERCENTAGE: "86.16 out of 100"
+        GPA: "8.6 out of 10"
         
       
   # Achievements
-  achievements:
-    enable: true
-    items:  
-      - title: Google kickstart runner
-        content: I solved all problems with optimal solution.
-        url: https://example.com
-      - title: Facebook Hackathon Winner
-        content: Developed a product using Artificial Intelligence.
-      - title: Hugo Profile
-        content: Developed a theme and getting 1K+ downloads per month.
-        url: "https://github.com/gurusabarish/hugo-profile"
-      - title:  Microsoft Imagine Runner
-        content: We are developed a product which can help others.
-      - title: Google Summer of Code
-        content: Contributed to a open source project.
-        url: https://example.com
+  # achievements:
+  #   enable: true
+  #   items:  
+  #     - title: Google kickstart runner
+  #       content: I solved all problems with optimal solution.
+  #       url: https://example.com
+  #     - title: Facebook Hackathon Winner
+  #       content: Developed a product using Artificial Intelligence.
+  #     - title: Hugo Profile
+  #       content: Developed a theme and getting 1K+ downloads per month.
+  #       url: "https://github.com/gurusabarish/hugo-profile"
+  #     - title:  Microsoft Imagine Runner
+  #       content: We are developed a product which can help others.
+  #     - title: Google Summer of Code
+  #       content: Contributed to a open source project.
+  #       url: https://example.com
 
   # projects
   projects:
@@ -239,34 +238,34 @@ params:
     items:
       - title: Hugo Profile
         content: A highly customizable and mobile first Hugo template for personal portfolio.
-        image: /images/projects/profile.png
+        image: /hugo.png
         featured:
           name: Demo
-          link: https://hugo-profile.netlify.app
-          links:
+          link: https://hugoprofile.netlify.app
+        links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/hugo-profile
+            url: https://github.com/guruprakash1702/hugopro
          
       
       - title: Vehicle Management
         content:  A front end UI to monitor the vehicles. 
-        image: /images/projects/converter.jpg
+        image: /Vmonitor.png
         featured:
           name: Demo
-          link: https://django-converter.herokuapp.com
+          link: https://vehiclemonitoring.netlify.app
         links:
           - icon: fab fa-github
             url: https://github.com/guruprakash1702/vehicle_management
       
       - title: Fronted UI for Interiors
         content: A clean and simple frontend UI for home interiors designing company. 
-        image: /images/projects/profile2.jpg
+        image: /interior.png
         featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
-          links:
+          name: Demo 
+          link: https://frontend-ui-forhome-interiors.netlify.app
+        links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+            url: https://github.com/guruprakash1702/UI-for-interiors
 
   #Contact
   contact:
